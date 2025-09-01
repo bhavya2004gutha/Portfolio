@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Rank Description</title>
+    <script src="switch.js" defer></script>
+</head>
+<body>
+    <select id="colleges" onchange="getrankDescription(this.value)">
+        <option value="">Select college</option>
+        <option value="pbrvits">pbrvits</option>
+        <option value="SRM">RkSRM</option>
+        <option value="vec">vec</option>
+        <option value="rsr">rsr</option>
+        <option value="audisankara">audisankara</option>
+    </select>
+
+    <div id="rankDescription" style="margin-top: 20px; font-weight: bold;"></div>
+</body>
+</html>
