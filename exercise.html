@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+     <p  id="bbot">0</p>
+    <button  type="button"  id="op1">increment</button>
+        <button  type="button"  id="op2">Decrement</button>
+            <button  type="button"  id="op3">clear</button>
+    
+<script>
+    let y=0;
+
+    op1.addEventListener ("click",()=>{
+        y++;
+        bbot.innerHTML=y;
+    });
+
+    op2.addEventListener("click",()=>{
+        y--;
+        bbot.innerHTML=y;
+
+    });
+
+    op3.addEventListener("click",()=>{
+        y=0;
+        bbot.innerHTML=y;
+    });
+
+
+
+</script>
+
+
+  
+
+</body>
+</html>
